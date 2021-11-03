@@ -12,6 +12,7 @@ package com.brdg.tdd;
 
 public class InvoiceGenerator {
 
+
     private static final double MINIMUM_COST_PER_KM = 10.0;
     private static final int COST_PER_TIME = 1;
     private static final int MINIMUM_FARE = 5;
@@ -24,4 +25,5 @@ public class InvoiceGenerator {
         else
             return totalFare;
     }
+
 }
